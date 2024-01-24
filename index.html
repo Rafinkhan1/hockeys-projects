@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hockeys-projects</title>
+    <!-- tailwind play cdn -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- tailwind and daisyUI cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- google manrope font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/f980b3d603.js" crossorigin="anonymous"></script>
+
+    <style>
+        .font-manrope {
+            font-family: 'Manrope', sans-serif;
+            ;
+        }
+    </style>
+</head>
+
+<body class="font-manrope ">
+    <header class="container mx-auto px-4">
+        <div>
+            <div class="carousel w-full">
+                <div id="slide1" class="carousel-item relative w-full">
+                    <img src="./Images/1.png" class="w-full" />
+                    <div
+                        class="absolute space-x-4 lg:space-x-8 transform -translate-y-1/2 left-1/3 lg:left-5 bottom-0 lg:bottom-5">
+                        <a href="#slide4" class="btn btn-circle bg-black border-none text-white">❮</a>
+                        <a href="#slide2" class="btn btn-circle bg-black border-none text-white">❯</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="border-dashed bg-gray-500 rounded-sm max-w-7xl mt-20">
+
+    </header>
+    <main class="container mx-auto">
+        <section class="text-center m-8 space-y-6">
+            <h2 class="text-5xl font-extrabold ">Professional Hockeys Club</h2>
+            <p class="font-medium">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat
+                <br>
+                dolor. Purus urna in sit nullam proin.
+            </p>
+            <hr class="border-dashed bg-gray-500 rounded-sm max-w-7xl my-12">
+        </section>
+        <section class="grid grid-cols-1 lg:grid-cols-4">
+            
+                <div class="card w-96 bg-base-100 ">
+                    <figure class="px-10 pt-10">
+                        <div class="radial-progress text-[#dc2626]" style="--value:87;" role="progressbar"><span class="text-black">87%</span></div>
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title">Prayer Facility</h2>
+                        <p>We have prayer facilities for all.</p>
+                    </div>
+                </div>
+        
+                <div class="card w-96 bg-base-100 ">
+                    <figure class="px-10 pt-10">
+                        <div class="radial-progress text-[#22c55e]" style="--value:95;" role="progressbar"><span class="text-black">95%</span></div>
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title">Experienced Coach</h2>
+                        <p>We have most experienced coach.</p>
+                    </div>
+                </div>
+        
+                <div class="card w-96 bg-base-100 ">
+                    <figure class="px-10 pt-10">
+                        <div class="radial-progress text-[#facc15]" style="--value:90;" role="progressbar"><span class="text-black">90%</span></div>
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title">Senior Player</h2>
+                        <p>Senior players are so co-operative <br> for joniors.</p>
+                    </div>
+                </div>
+        
+                <div class="card w-96 bg-base-100 ">
+                    <figure class="px-10 pt-10">
+                        <div class="radial-progress text-[#0ea5e9]" style="--value:80;" role="progressbar"><span class="text-black">80%</span></div>
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title">Training Ground</h2>
+                        <p>We have well training ground facilities.</p>
+                    </div>
+                </div>
+        
+        </section>
+    </main>
+
+
+</body>
+
+</html>
